@@ -1,0 +1,77 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AIFlatSwitch (1.0.1)
+  - ARSLineProgress (2.0.0)
+  - Clarifai (2.0.1):
+    - AFNetworking (~> 2.0)
+  - Fusuma (0.5.3)
+  - GTProgressBar (0.1.0)
+  - Spring (1.0.3)
+  - SwiftCharts (0.4)
+  - UICircularProgressRing (1.1.1)
+
+DEPENDENCIES:
+  - AIFlatSwitch (~> 1.0.1)
+  - ARSLineProgress (~> 2.0)
+  - Clarifai
+  - Fusuma (from `https://github.com/Ferrick90/Fusuma.git`, commit `a8a00a7`)
+  - GTProgressBar
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`)
+  - UICircularProgressRing
+
+EXTERNAL SOURCES:
+  Fusuma:
+    :commit: a8a00a7
+    :git: https://github.com/Ferrick90/Fusuma.git
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+  SwiftCharts:
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+CHECKOUT OPTIONS:
+  Fusuma:
+    :commit: a8a00a7
+    :git: https://github.com/Ferrick90/Fusuma.git
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+  SwiftCharts:
+    :commit: 1705b493b9239cbeb74c484eb9fa9694e42e5b7d
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AIFlatSwitch: 5b121a4a90a06f0fbd72e9f1fe9bb30e64d67177
+  ARSLineProgress: a20f4093d44802184cbc135bcd56259d6f12d002
+  Clarifai: 84feccd9fd408dca08f592397dfa9a6788026ae4
+  Fusuma: 02ffb3a9943792519f2c0972263b750acb550a49
+  GTProgressBar: e72edfa42942aa8a19eaedc56b9a9d7ee9240123
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftCharts: 84b43d9d70b791459ff5f50ae5a6704326de309d
+  UICircularProgressRing: c37697577b2f07841fa901ad162959f6f5530204
+
+PODFILE CHECKSUM: db345344c6b9e1d4f9fb241d5749346062bd857f
+
+COCOAPODS: 1.1.0.rc.2
